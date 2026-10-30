@@ -1,0 +1,6 @@
+{
+  "name": "Vértice Academia",
+  "description": "Landing page de alta conversão para agendamento de aula experimental gratuita na Vértice Academia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
