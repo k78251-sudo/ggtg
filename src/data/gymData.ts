@@ -64,7 +64,7 @@ export const MODALITIES: Modality[] = [
     name: 'Musculação',
     shortDesc: 'Equipamentos robustos, pesos livres organizados e professores presentes no salão.',
     fullDesc: 'Mais de 450m² planejados para o treino render. Gaiolas olímpicas reforçadas, barras retas e w, halteres maciços de 2 a 50 kg e maquinário articulado com movimento biomecânico fluido, sem folga em cabos ou disputa de aparelho.',
-    image: '/src/assets/images/modality_musculacao_1793381737605.jpg',
+    image: '/demo-sample.png',
     specs: [
       'Gaiolas de agachamento com anilhas calibradas',
       'Halteres organizados e bancos com ajuste angular firme',
@@ -77,7 +77,7 @@ export const MODALITIES: Modality[] = [
     name: 'Treinamento Funcional',
     shortDesc: 'Movimentos naturais, força aplicável e condicionamento físico para o dia a dia.',
     fullDesc: 'Treinos dinâmicos em turmas reduzidas. Trabalhamos mobilidade articular, potência e resistência muscular com kettlebells, caixas de salto, trenós de empurrão e cordas navais. Cada aula tem uma meta clara e um ritmo guiado pelo treinador.',
-    image: '/src/assets/images/modality_funcional_1793381737806.jpg',
+    image: '/demo-sample.png',
     specs: [
       'Turmas com no máximo 14 alunos para atenção próxima',
       'Piso emborrachado com alta absorção de impacto',
@@ -90,7 +90,7 @@ export const MODALITIES: Modality[] = [
     name: 'Spinning / Ciclismo Indoor',
     shortDesc: 'Pedal intervalado de alto gasto calórico com métricas de cadência e potência no painel.',
     fullDesc: 'Estúdio dedicado com acústica tratada e climatização a 19°C. Bicicletas profissionais com regulagens precisas de guidão e selim, além de monitor individual de RPM, watts e batimento cardíaco para você controlar o ritmo exato de cada tiro.',
-    image: '/src/assets/images/modality_spinning_1793381739428.jpg',
+    image: '/demo-sample.png',
     specs: [
       'Bikes com leitura de cadência e potência individual',
       'Sala refrigerada para manter o rendimento do início ao fim',
@@ -103,7 +103,7 @@ export const MODALITIES: Modality[] = [
     name: 'Lutas (Boxe & Muay Thai)',
     shortDesc: 'Técnica de combate limpa, trabalho intenso de pernas e descarrego de estresse nas manoplas.',
     fullDesc: 'Treinamento focado em postura, esquiva, jogo de pernas e precisão de golpes. Sem enrolação e sem risco desnecessário: você aprende fundamentos reais de boxe e muay thai com rounds cronometrados em sacos de couro e treino de manoplas com os professores.',
-    image: '/src/assets/images/modality_lutas_1793381739646.jpg',
+    image: '/demo-sample.png',
     specs: [
       'Tatame higienizado diariamente com textura antiderrapante',
       'Equipamentos de proteção e luvas de empréstimo para a aula experimental',

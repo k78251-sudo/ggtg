@@ -98,6 +98,19 @@ export const Footer: React.FC<FooterProps> = ({ onScheduleClick }) => {
             Projeto demonstrativo fictício para apresentação de interface. Marca e personagens simulados.
           </p>
         </div>
+
+        {/* Developer Signature Bar */}
+        <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="flex items-center gap-2 text-neutral-500 text-xs">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#C8F031]" />
+            <span>Design sob medida, alta velocidade e experiência responsiva</span>
+          </div>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/60 border border-white/15 hover:border-[#C8F031]/40 transition-colors">
+            <span className="text-xs text-neutral-300">
+              Site desenvolvido por <strong className="font-bold text-[#C8F031] tracking-wide">Nova</strong>
+            </span>
+          </div>
+        </div>
       </div>
     </footer>
   );

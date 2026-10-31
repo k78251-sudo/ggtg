@@ -113,9 +113,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </div>
               ) : (
                 <img
-                  src="/src/assets/images/hero_gym_training_1793381737332.jpg"
-                  alt="Atleta em preparação de levantamento terra com barra pesada no Vértice Centro de Treinamento"
-                  className="w-full h-56 min-[360px]:h-64 sm:h-80 lg:h-[600px] object-cover object-center grayscale hover:grayscale-0 transition-all duration-700"
+                  src="/demo-sample.png"
+                  alt="Imagem meramente ilustrativa para amostra do produto"
+                  className="w-full h-56 min-[360px]:h-64 sm:h-80 lg:h-[600px] object-contain bg-black p-4 transition-all duration-500"
                   referrerPolicy="no-referrer"
                   loading="eager"
                   onError={() => setImageError(true)}

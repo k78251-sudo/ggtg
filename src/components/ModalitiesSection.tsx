@@ -64,7 +64,7 @@ export const ModalitiesSection: React.FC<ModalitiesSectionProps> = ({
                 <img
                   src={MODALITIES[0].image}
                   alt={MODALITIES[0].name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-contain bg-black p-2 group-hover:scale-105 transition-all duration-500"
                   referrerPolicy="no-referrer"
                   onError={() => handleImageError(MODALITIES[0].id)}
                 />
@@ -127,7 +127,7 @@ export const ModalitiesSection: React.FC<ModalitiesSectionProps> = ({
                 <img
                   src={MODALITIES[1].image}
                   alt={MODALITIES[1].name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-contain bg-black p-2 group-hover:scale-105 transition-all duration-500"
                   referrerPolicy="no-referrer"
                   onError={() => handleImageError(MODALITIES[1].id)}
                 />
@@ -187,7 +187,7 @@ export const ModalitiesSection: React.FC<ModalitiesSectionProps> = ({
                 <img
                   src={MODALITIES[2].image}
                   alt={MODALITIES[2].name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-contain bg-black p-2 group-hover:scale-105 transition-all duration-500"
                   referrerPolicy="no-referrer"
                   onError={() => handleImageError(MODALITIES[2].id)}
                 />
@@ -247,7 +247,7 @@ export const ModalitiesSection: React.FC<ModalitiesSectionProps> = ({
                 <img
                   src={MODALITIES[3].image}
                   alt={MODALITIES[3].name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-contain bg-black p-2 group-hover:scale-105 transition-all duration-500"
                   referrerPolicy="no-referrer"
                   onError={() => handleImageError(MODALITIES[3].id)}
                 />
